@@ -1,5 +1,5 @@
 # AlgoCast - cpp
-![example workflow](https://github.com/memoryInject/algoCast_test/actions/workflows/cmake.yml/badge.svg)
+![example workflow](https://github.com/memoryInject/algoCast_cpp/actions/workflows/cmake.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Common alogrithms and problems solved in c++ with googletest driven environment.
@@ -9,7 +9,7 @@ Common alogrithms and problems solved in c++ with googletest driven environment.
 Clone the repo into local drive
 
 ```bash
-git clone https://github.com/memoryInject/algoCast_test
+git clone https://github.com/memoryInject/algoCast_cpp
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ This project does require cmake in a linux environment to build and run the test
 Run the test by typing the code below in bash
 
 ```bash
-cd algoCast_test
+cd algoCast_cpp
 
 cmake . -B build
 
@@ -30,7 +30,7 @@ GTEST_COLOR=1 ctest -V
 
 ## File structure
 
-<img src="https://github.com/memoryInject/algoCast_test/blob/master/file_structure.svg" />
+<img src="https://github.com/memoryInject/algoCast_cpp/blob/master/file_structure.svg" />
 
 CMake will download googletest suit from github and create: &nbsp;"libs/googletest". \
 After building the project the executable can be found in: &nbsp;"build/src/<00_project>/<project>". \
