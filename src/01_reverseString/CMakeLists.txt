@@ -1,0 +1,5 @@
+project(reverseString)
+add_executable(reverseString main.cpp)
+add_test(NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME})
+add_library(${PROJECT_NAME}_lib STATIC reverseString)
+target_link_libraries(${PROJECT_NAME} PUBLIC ${PROJECT_NAME}_lib gtest)
