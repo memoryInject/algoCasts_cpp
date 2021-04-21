@@ -20,3 +20,5 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/libs/googletest/ ${CMAKE_CURRENT_BI
 enable_testing()
 include(GoogleTest)
 add_subdirectory(src/01_reverseString)
+add_subdirectory(src/02_palindrome)
+#add_subdirectory(src/17_treeTraversal)

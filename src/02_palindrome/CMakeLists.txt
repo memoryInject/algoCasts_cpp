@@ -1,4 +1,4 @@
-set(ALGO_CAST_NAME "reverseString")
+set(ALGO_CAST_NAME "palindrome")
 project(${ALGO_CAST_NAME})
 add_executable(${ALGO_CAST_NAME} main.cpp)
 add_test(NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME})
