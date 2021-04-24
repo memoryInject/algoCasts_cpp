@@ -1,0 +1,6 @@
+set(ALGO_CAST_NAME "print_steps")
+project(${ALGO_CAST_NAME})
+add_executable(${ALGO_CAST_NAME} main.cpp)
+add_test(NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME})
+add_library(${PROJECT_NAME}_lib STATIC ${ALGO_CAST_NAME})
+target_link_libraries(${PROJECT_NAME} PUBLIC ${PROJECT_NAME}_lib gtest)
