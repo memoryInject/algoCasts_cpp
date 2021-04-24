@@ -33,9 +33,9 @@ GTEST_COLOR=1 ctest -V
 <img src="https://github.com/memoryInject/algoCasts_cpp/blob/master/file_structure.svg" />
 
 CMake will download googletest suit from github and create: &nbsp;"libs/googletest". \
-After building the project the executable can be found in: &nbsp;"build/src/<00_project>/<project>". \
+After building the project the executable can be found in: &nbsp;"build/src/<00_project>/project". \
 All source files are under: &nbsp;"src/<00_project>/<project.cpp>". \
-Test file is on every project directry with the name of 'main.cpp': &nbsp;"src/<00_project>/main.cpp".
+Test file is on every project directory with the name of 'main.cpp': &nbsp;"src/<00_project>/main.cpp".
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
