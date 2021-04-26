@@ -1,0 +1,8 @@
+set(ALGO_CAST_NAME "fibonacciSeries")
+project(${ALGO_CAST_NAME})
+add_executable(${ALGO_CAST_NAME} main.cpp)
+add_test(NAME ${PROJECT_NAME} COMMAND ${PROJECT_NAME})
+add_library(fibonacciSeries_iterative_lib STATIC fibonacciSeries_iterative)
+add_library(fibonacciSeries_recursive_lib STATIC fibonacciSeries_recursive)
+add_library(fibonacciSeries_recursive_memoization_lib STATIC fibonacciSeries_recursive_memoization)
+target_link_libraries(${PROJECT_NAME} PUBLIC fibonacciSeries_iterative_lib fibonacciSeries_recursive_lib fibonacciSeries_recursive_memoization_lib gtest)
