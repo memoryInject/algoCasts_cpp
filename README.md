@@ -1,4 +1,4 @@
-# AlgoCasts - cpp
+# Coding Challenges - cpp
 ![example workflow](https://github.com/memoryInject/algoCasts_cpp/actions/workflows/cmake.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
